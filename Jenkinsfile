@@ -28,7 +28,7 @@ pipeline {
 
     stage('end') {
       steps {
-        sh './jenkins/scripts/kill.sh.'
+        sh './jenkins/scripts/kill.sh'
       }
     }
 
